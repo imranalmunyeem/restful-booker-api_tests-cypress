@@ -1,0 +1,27 @@
+{
+  "name": "restful-booker-api_tests-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranalmunyeem/restful-booker-api_tests-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/imranalmunyeem/restful-booker-api_tests-cypress/issues"
+  },
+  "homepage": "https://github.com/imranalmunyeem/restful-booker-api_tests-cypress#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
