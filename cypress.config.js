@@ -1,9 +1,10 @@
-const { defineConfig } = require("cypress");
+const config = require('./config.json');
 
-module.exports = defineConfig({
+module.exports = {
   e2e: {
+    baseUrl: config.base_url, // Dynamically set base URL
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      return config;
     },
   },
-});
+};
